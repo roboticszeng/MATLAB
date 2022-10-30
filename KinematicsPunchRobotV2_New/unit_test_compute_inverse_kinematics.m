@@ -1,0 +1,1 @@
+clear;clc;pos = [250, 100];% posX = 168:-1:130;% for i = 1 : length(posX)%     pos(1) = posX(i);%     theta(:, i) = compute_inverse_kinematics(pos);% end% pos = [168, 0];% % theta = compute_inverse_kinematics(pos);theta = compute_inverse_kinematics(pos);
